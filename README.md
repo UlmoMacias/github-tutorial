@@ -2,34 +2,34 @@
 
 # Git and GitHub
 
-### What?
-- **Git:** a version control system that keeps track of code changes
-- **GitHub:** a popular web-based server for hosting repositories
+### Qué?
+- **Git:** Un sistema de control de versiones que lleva registro de los cambios de código
+- **GitHub:** Un servidor popular basado en web, para almacenar repositorios.
 
-### Why?
-- Keeps a full history of changes
-- Allows multiple programmers to work on the same codebase
-- Is efficient and lightweight (records file changes, not file contents)
-- Public repositories on GitHub can serve as a coding resume.
+### Por qué?
+- Mantiene un historial completo de los cambios
+- Permite desarrollo colaborativo de varias partes sobre el mismo código
+- Es eficiente y ligero (ragistra cambios en archivos, con los contenidos de los archivos)
+- Los ropositorios públicos pueden servir como portafolios de programación.
 
-### How?
-- That's what this session is for!
+### Cómo?
+- Es lo que vamos a averiguar!!
 
-# Git and GitHub Setup
+# Git y GitHub Setup
 
-### 1. Create a GitHub account
+### 1. Crear una cuenta de GitHub.
 
-Create a Github account through the Github website.
+Crear una cuenta de GitHub en el sitio oficial.
 
-- Go to https://github.com/ and follow on-screen instructions to create a user account
+- Entra en https://github.com/ y sigue las instrucciones para crear tu cuenta. 
 
-- Tip: Choose a job-appropriate user name if possible
+- Tip: Elige un nombre profesional de ser posible.
 
 <!--![git-homepage](img/git-homepage.png)-->
 
-### 2. Install Git
+### 2. Instalar Git
 
-Install Git on your computer (through Terminal for Mac or Ubuntu).
+Instalar Git en tu computadora (usando la terminal con Mac o Ubuntu).
 
 - Installing on Mac: `$ brew install git`  
 - Installing on Ubuntu: `$ apt-get install git`  
