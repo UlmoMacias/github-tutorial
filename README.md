@@ -373,9 +373,6 @@ Si todo está bien, enviar con el botón "Send Pull Request".
 Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
 
 
-*Gracias a [BCasal](https://gist.github.com/BCasal/) por la sección "Cómo colaborar en un proyecto en GitHub"
-
-
 # ¿Quieres escribir un archivo como este? Github Markdown
 - https://guides.github.com/features/mastering-markdown/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
@@ -392,3 +389,4 @@ Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama cor
 
 *Thank you to Mike Grinolds for his slides and GitHub tutorial!*
 *Thank you to InsightDataScience for the english version!!*
+*Gracias a [BCasal](https://gist.github.com/BCasal/) por la sección "Cómo colaborar en un proyecto en GitHub"*
