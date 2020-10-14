@@ -307,4 +307,15 @@ Always right after you commit. Why wouldn’t you want to have an immediate back
 ### Do I have to have commit messages?
 You at least need a descriptive title. This is an important part of code documentation (especially in a multi-developer environment).
 
+
+# Información Extra
+- https://riptutorial.com/es/git
+- https://reviblog.net/tag/volver-al-un-commit-anterior/
+- https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/
+
+# Cursos
+- https://www.udacity.com/course/version-control-with-git--ud123
+- https://es.coursera.org/learn/introduction-git-github?
+
 *Thank you to Mike Grinolds for his slides and GitHub tutorial!*
+*Thank you to InsightDataScience for the english version!!*
