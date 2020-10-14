@@ -31,16 +31,16 @@ Crear una cuenta de GitHub en el sitio oficial.
 
 Instalar Git en tu computadora (usando la terminal con Mac o Ubuntu).
 
-- Installing on Mac: `$ brew install git`  
-- Installing on Ubuntu: `$ apt-get install git`  
-- Installing on Windows: [http://git-scm.com/downloads](http://git-scm.com/downloads)
+- Para instalarlo en Mac: `$ brew install git`  
+- Para instalarlo en Ubuntu: `$ apt-get install git`  
+- Para instalarlo en Windows: [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-- Tip: If you are running into trouble, try [here](http://git-scm.com/book/en/Getting-Started-Installing-Git)
-- Tip: To check if git is already installed, try `$ git` in Terminal
+- Tip: Si te encuentras en problemas, prueba esto [here](http://git-scm.com/book/en/Getting-Started-Installing-Git)
+- Tip: Para checar que git ya este instalado en la terminal, prueba `$ git` en Terminal
 
 ![git-cli](img/git-cli.png)
 
-### 3. Configure Git
+### 3. Configuración Git
 
 Configure Git so that Github can recognize your commits (in Terminal).
 
