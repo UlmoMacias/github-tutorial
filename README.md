@@ -100,9 +100,9 @@ Tip: You can use the command `git diff` to see how a file has changed since its 
 
 ### Commit
 
-Commits are a series of changes that records incremental updates to a series of files.
+Los commits son una serie de cambios que registran las actualizaciones a una serie de archivos.
 
-Each commit a global unique hash (calculated from contents of file) that serves as an identifier.
+Cada commit tiene un hash global único (que se calcula con los datos de los archivos) que sirve como identificador.
 
 ![git-commit](img/git-commit.png)
 
@@ -120,13 +120,13 @@ A repository refers to a tree structure that contains many branches. Each branch
 
 Branches can be formed at any commit, and two branches can be merged together by summing their changes (assuming there are no conflicts).
 
-# Basic Git Tutorial
+# Tutorial básico de Git
 
 ## Basic Workflow
 
 There are three basic commands that part of the typical workflow when doing version control with git. These commands are **add, commit and push**.
 
-### 0. Create a file
+### 0. Crear un archivo.
 
 First, create an example file to track using Git.
 
