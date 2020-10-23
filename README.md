@@ -376,6 +376,7 @@ Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama cor
 # ¿Quieres escribir un archivo como este? Github Markdown
 - https://guides.github.com/features/mastering-markdown/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+- [Emojis cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) :octocat:	
 
 # Información Extra
 - https://guides.github.com
