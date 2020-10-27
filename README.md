@@ -42,14 +42,14 @@ Instalar Git en tu computadora (usando la terminal con Mac o Ubuntu).
 
 ### 3. Configuración Git
 
-Configure Git so that Github can recognize your commits (in Terminal).
+COnfigure Git para que Github pueda reconocer los envios o commit (en la Terminal).
 
-- Run the following commands in Terminal to configure git:
+- Ejecuta los siguientes comandos en la Terminal para configurar git:
 
 	`$ git config --global user.name "[insert your user name here]"`  
 	`$ git config --global user.email "[insert your email here]"`
 
-- Tip: The gloabl config settings can be accessed and manually edited in `~/.gitconfig`
+- Tip: TLos ajustes de la configuracion global pueden ser accesados y manualmente editados en `~/.gitconfig`
 
 ### 4. Fork the tutorial repository to your account
 
