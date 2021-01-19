@@ -21,7 +21,7 @@
 
 Crear una cuenta de GitHub en el sitio oficial.
 
-- Entra en https://github.com/ y sigue las instrucciones para crear tu cuenta. 
+- Entra en https://github.com/ y sigue las instrucciones para crear tu cuenta.
 
 - Tip: Elige un nombre profesional de ser posible.
 
@@ -75,7 +75,7 @@ Clone this repository (the remote repository) to your local machine.
 	`$ cd [path to your development folder]`
 
 - Type `git clone` into Terminal, followed by the repository link you copied (see below for example)
-	  
+
 	`$ git clone [link to your forked tutorial repository]`
 
 <!--![git-clone](img/git-clone.png)-->
@@ -86,7 +86,7 @@ Clone this repository (the remote repository) to your local machine.
 
 ### Change (aka Diff)
 
-Git maintains version control by tracking the changes or diffs between file versions. 
+Git maintains version control by tracking the changes or diffs between file versions.
 
 You can change a file by doing one of two things:  
 1. File creation, renaming, or deletion.  
@@ -114,41 +114,49 @@ A codebase can be calculated by applying changes to files in each commit in succ
 
 ![git-commit-history](img/git-commit-history.png)
 
-### Repository
+### Repositorio
 
-A repository refers to a tree structure that contains many branches. Each branch represents a different state of the code. 
+Un repositorio es una estructura de árbol que contiene distintas ramas. En donde cada rama representa un estado distinto del código
 
-Branches can be formed at any commit, and two branches can be merged together by summing their changes (assuming there are no conflicts).
+Distintas ramas oueden ser formadas en cualquier commit, y dos ramas pueden ser combinadas sumando sus cambios (bajo el supuesto de que no hay conflictos).
 
 # Tutorial básico de Git
 
-## Basic Workflow
+## Flujo de trabajo básico
+Dentro del entorno de trabajo de Git, encontramos que nuestros archivos dentro de nuestra computadora, pueden estar en tres áreas de trabajo distintas, según el avance de nuestro proyecto:
 
-There are three basic commands that part of the typical workflow when doing version control with git. These commands are **add, commit and push**.
+### Árbol de trabajo
+
+### Área de Staging
+
+### Repositorio local
+
+Principalmente hay tres comandos básicos del flujo de trabajo normal cuando estamos haciendo un control de versión con git. Estos comandos son **add, commit** y **push**
+
+Vamos a ahondar en esto con un ejemplo de uso:
 
 ### 0. Crear un archivo.
 
-First, create an example file to track using Git.
+Primero, creamos un archivo de prueba que vamos a ir siguiendo usando Git.
 
-- In Terminal, navigate to your repository folder.
-- Create a Python file called `hello.py` using your favorite editor
-- Write some (very simple) code and save the file.
-
+- En la terminal, nos dirigimos a la dirección del repositorio sobre el que trabajaremos.
+- Creamos un archivo de Python que se llame, por ejemplo, 'hola.py'
+- Escribamos algo de código (muy simple) y salvamos el archivo.
 	```
-	def hello(name):  
-		print("Hello " + name)
+	def saludar(nombre):  
+		print("Hola " + nombre)
 
 	if __name__ == "__main__":
-		hello()
+		saludar('Usuario')
 	```
 
 ### 1. git add
 
-After creating the file, add the file to be tracked using Git.
+Después de haber creado el archivo,  vamos a agregarlo al área de staging:
 
-- In Terminal, use `git add` followed by the filename to add the file to be tracked.
+- En la terminal, usemos el comando `git add` seguido del nombre del archivo que vamos a seguir.
 
-	`$ git add hello.py`
+	`$ git add hola.py`
 
 ### 2. git commit
 
@@ -226,10 +234,10 @@ To **add** the new branch to your remote repository, use `git push origin` follo
 Use the basic add, commit, and push commands (pointing to this new branch) to develop on this branch.
 
 To **merge** one branch into another, use `git checkout` followed by the branch you want to merge into and `git merge` followed by the branch you are merging into the first branch.
-	
+
 	$ git checkout master
 	$ git merge add_excitement
-	
+
 To **locally delete** the branch, use `git branch -d` followed by the branch name.
 
 To **remotely delete** the branch, use `git push origin --delete` followed by the branch name.
@@ -376,7 +384,7 @@ Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama cor
 # ¿Quieres escribir un archivo como este? Github Markdown
 - https://guides.github.com/features/mastering-markdown/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-- [Emojis cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) :octocat:	
+- [Emojis cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) :octocat:
 
 # Información Extra
 - https://guides.github.com
