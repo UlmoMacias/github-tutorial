@@ -49,7 +49,7 @@ COnfigure Git para que Github pueda reconocer los envios o commit (en la Termina
 	`$ git config --global user.name "[insert your user name here]"`  
 	`$ git config --global user.email "[insert your email here]"`
 
-- Tip: TLos ajustes de la configuracion global pueden ser accesados y manualmente editados en `~/.gitconfig`
+- Tip: Los ajustes de la configuracion global pueden ser accesados y manualmente editados en `~/.gitconfig`
 
 ### 4. Tutorial para hacer Fork de un repositorio a tu cuenta
 Puedes observar el tutorial para el Fork de un repositorio a tu cuenta a través de la página web GitHub. La finalidad de realizar "Fork"  es que realiza una copia exacta del repositorio original a tu cuenta de Githhub.
@@ -61,27 +61,27 @@ Tip: Si realizaste 'fork' exitosamente del repositorio de este tutorial, entonce
 
 ![git-fork](img/git-fork.png)
 
-### 5. Clone the repository to your local machine
+### 5. Clonar el repositorio a tu máquina local.
 
-Clone this repository (the remote repository) to your local machine.
+Clona este repositorio (el repositorio remoto) a tu máquina local.
 
-- On your tutorial repository webpage, click the green "Clone or download" button on the right side of the page.
-- Select the "Use HTTPS" option if it is available.
-- Copy the link.
+- En tu tutorial de la página web del repositorio, dale click al botón verde "Clonar o Download" en la parte derecha de la página.
+- Selecciona la opción "Use HTTPS" si es que se encuentra disponible.
+- Copia el link.
 
-- In Terminal, navigate to your development folder. (Note: If you don't have a development folder, it may be a good idea to create one where you can store all directories tracked by git in one place.)
+- En la terminal, navega a tu folder de desarrollo. (Nota: Si no cuentas con un folder de desarrollo, serìa una buena idea el crear uno donde tu puedes guardar todos los directorios que serán monitoreados por "Git" (Software que controla versiones ) en un solo lugar.)
 
 	`$ cd [path to your development folder]`
 
-- Type `git clone` into Terminal, followed by the repository link you copied (see below for example)
+- Escribe `git clone` dentro de la Terminal, seguido del link que previamente copiaste del repositorio (Mira el ejemplo de abajo)
 
 	`$ git clone [link to your forked tutorial repository]`
 
 <!--![git-clone](img/git-clone.png)-->
 
-### You are now ready to use version control with Git and Github!
+### ¡Ahora te encuentras listo para usar el control de versiones con Git y Github!
 
-# Git Concepts and Vocabulary
+# Conceptos y Vocabulario de Git
 
 ### Change (aka Diff)
 
