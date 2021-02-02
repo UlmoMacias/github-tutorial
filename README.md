@@ -51,14 +51,13 @@ COnfigure Git para que Github pueda reconocer los envios o commit (en la Termina
 
 - Tip: TLos ajustes de la configuracion global pueden ser accesados y manualmente editados en `~/.gitconfig`
 
-### 4. Fork the tutorial repository to your account
+### 4. Tutorial para hacer Fork de un repositorio a tu cuenta
+Puedes observar el tutorial para el Fork de un repositorio a tu cuenta a través de la página web GitHub. La finalidad de realizar "Fork"  es que realiza una copia exacta del repositorio original a tu cuenta de Githhub.
 
-Fork the tutorial repository to your account through the Github webpage. This makes a copy of the original repository on your account.
+- En la página [GitHub repo page](https://github.com/InsightDataScience/github-tutorial), en la parte superior derecha de la página, justo abajo de la foto de tu cuenta de Github, da click en el botón Fork (Observe el ejemplo de abajo).
+- Selecciona tu cuenta a la que deseas exportar la copia exacta del repositorio cuando te lo pida. Esto hará que puedar hacer 'fork' del repositorio tutorial-github-es  en tu cuenta.
 
-- On the [GitHub repo page](https://github.com/InsightDataScience/github-tutorial), in the top right corner of the page under the photo of your account, click the Fork button (see below for example).
-- Select your account when prompted. This should fork the github-tutorial repository to your account.
-
-Tip: If you successfully forked the tutorial repository, you should see the name of the repository as [your user name]/github-tutorial
+Tip: Si realizaste 'fork' exitosamente del repositorio de este tutorial, entonces tu debes de observar el nombre del repositorio como [tu_nombre_usuario]/tutorial-github-es
 
 ![git-fork](img/git-fork.png)
 
